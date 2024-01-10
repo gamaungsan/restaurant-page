@@ -1,0 +1,23 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "restaurant page project from odin-project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gamaungsan/restaurant-page.git"
+  },
+  "author": "Gam Aung San",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gamaungsan/restaurant-page/issues"
+  },
+  "homepage": "https://github.com/gamaungsan/restaurant-page#readme",
+  "devDependencies": {
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}

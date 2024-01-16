@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+#content {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    height: 60px;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+    height: 60px;
+}
+
+.navbar li:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+}
+
+.display{
+    margin: 2% 20% 2% 20%;
+    flex: 1;
+}
+
+.header {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.description {
+    padding-bottom: 3rem;
+}
+
+.hours {
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hours h3 {
+    padding-bottom: 2rem;
+}
+
+.days {
+    display: flex;
+    gap: 3rem;
+    padding-bottom: 10px;
+}
+
+.days p{
+    width: 120px;
+}
+
+.location {
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.location p{
+    padding-bottom: .3rem;
+}
+
+.location h3{
+    padding-bottom: 1rem;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact h3 {
+    padding-bottom: 1rem;
+}
+
+.contact p {
+    padding-bottom: .3rem;
+}
+
+.appetizer{
+    padding-bottom: 3rem;
+}
+
+.appetizer h2{
+    padding-bottom: 1rem;
+}
+
+.entree{
+    padding-bottom: 3rem;
+}
+
+.entree h2{
+    padding-bottom: 1rem;
+}
+
+.side{
+    padding-bottom: 3rem;
+}
+
+.side h2{
+    padding-bottom: 1rem;
+}
+
+.dessert{
+    padding-bottom: 3rem;
+
+}
+
+.dessert h2{
+    padding-bottom: 1rem;
+}
+
+.drink {
+    padding-bottom: 3rem;
+
+}
+
+.drink h2{
+    padding-bottom: 1rem;
+}
+
+.items h3{
+    padding-bottom: .5rem;
+}
+.items p{
+    padding-bottom: .3rem;
+}
